@@ -1,17 +1,16 @@
 import 'package:flutter/material.dart';
+import '../home_data.dart';
 
 class PickLocationButton extends StatelessWidget {
-  final GestureTapCallback onTap;
-
-  PickLocationButton({this.onTap});
-
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+    final data = HomeData.of(context);
+
     return Container(
       child: Column(
         children: <Widget>[
           RichText(
+            textAlign: TextAlign.center,
             text: TextSpan(
               children: [
                 TextSpan(text: "Tap on"),
@@ -27,7 +26,9 @@ class PickLocationButton extends StatelessWidget {
           ),
           SizedBox(height: 20),
           FloatingActionButton(
-            onPressed: onTap,
+            onPressed: () {
+              data.storage.pickRandomPlace();
+            },
             backgroundColor: Color(0xfff93d66),
             child: Icon(Icons.location_on),
           )

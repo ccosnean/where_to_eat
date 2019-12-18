@@ -17,7 +17,7 @@ class _SelectableCardState extends State<SelectableCard> {
   Widget build(BuildContext context) {
     return Container(
       child: Material(
-        color: Colors.transparent,
+        color: isSelected ? Color(0xfff93d66).withAlpha(50) : Colors.transparent,
         child: InkWell(
           splashColor: Colors.redAccent,
           child: Container(
@@ -36,7 +36,6 @@ class _SelectableCardState extends State<SelectableCard> {
                 child: Checkbox(
                   checkColor: Colors.white70,
                   activeColor: Colors.redAccent,
-                  focusColor: Colors.redAccent,
                   value: isSelected,
                   onChanged: null,
                 ),
