@@ -10,9 +10,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "What to Eat?",
-      theme: ThemeData(
-//        fontFamily: "serif",
-          ),
       home: Home(),
     );
   }
