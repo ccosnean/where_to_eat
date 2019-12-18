@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ccosneanu/development/projects_flutter/where_to_eat/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "map": [
+                {
+                    "source": "/Users/ccosneanu/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/36f1473561e202c782a857afe8d22172/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    }
+                }
+            ]
+        }
+    ]
+}

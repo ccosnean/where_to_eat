@@ -1,0 +1,10 @@
+// This is a generated file; do not edit or check into version control.
+FLUTTER_ROOT=/Users/ccosneanu/development/flutter
+FLUTTER_APPLICATION_PATH=/Users/ccosneanu/development/projects_flutter/where_to_eat
+FLUTTER_TARGET=/Users/ccosneanu/development/projects_flutter/where_to_eat/lib/main.dart
+FLUTTER_BUILD_DIR=build
+SYMROOT=${SOURCE_ROOT}/../build/ios
+FLUTTER_FRAMEWORK_DIR=/Users/ccosneanu/development/flutter/bin/cache/artifacts/engine/ios
+FLUTTER_BUILD_NAME=1.0.0
+FLUTTER_BUILD_NUMBER=1
+TRACK_WIDGET_CREATION=true
