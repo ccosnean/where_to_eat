@@ -17,9 +17,9 @@ class _SelectableCardState extends State<SelectableCard> {
   Widget build(BuildContext context) {
     return Container(
       child: Material(
-        color: isSelected ? Color(0xfff93d66).withAlpha(50) : Colors.transparent,
+        color: isSelected ? Color(0xff5B4AEA).withAlpha(50) : Colors.transparent,
         child: InkWell(
-          splashColor: Colors.redAccent,
+          splashColor: Color(0xff5B4AEA).withAlpha(50),
           child: Container(
             padding: EdgeInsets.fromLTRB(10, 0, 0, 0),
             child: Row(children: <Widget>[

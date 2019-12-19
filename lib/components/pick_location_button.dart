@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import '../home_data.dart';
 
 class PickLocationButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final data = HomeData.of(context);
 
     return Container(
       child: Column(
@@ -26,9 +24,7 @@ class PickLocationButton extends StatelessWidget {
           ),
           SizedBox(height: 20),
           FloatingActionButton(
-            onPressed: () {
-              data.storage.pickRandomPlace();
-            },
+            onPressed: () {},
             backgroundColor: Color(0xfff93d66),
             child: Icon(Icons.location_on),
           )
