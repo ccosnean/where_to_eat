@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../home_data.dart';
 import 'selectable_card.dart';
 
 class RestaurantList extends StatefulWidget {
@@ -46,16 +47,17 @@ class _RestaurantListState extends State<RestaurantList> {
   }
 
   List<SelectableCard> _buildCards(BuildContext context) {
+    HomeData data = HomeData.of(context);
+
     return _eatingPlaces.map((place) {
       return SelectableCard(
         title: place,
         onChanged: (value) {
           if (value) {
-            selectedPlaces.add(place);
+            data.storage.selectedPlaces.add(place);
           } else {
-            selectedPlaces.remove(place);
+            data.storage.selectedPlaces.remove(place);
           }
-          print(selectedPlaces);
         },
       );
     }).toList();
